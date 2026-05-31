@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* :root {
+  --font-raleway: system-ui;
+  --font-dancing-script: system-ui;
+} */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+@theme inline {
+    --color-background: #fafafa;
+    --color-main: #464a7c;
+    --color-small: #858D9D;
+    --color-bgDashboard: #EEF0F2;
+    --color-dbFill: #2F7BEB;
+    --color-primary50: #E8F1FD;
+    --color-aid: #454545;
+    --color-supportDark: #1c1c1c;
+    --font-dancing: var(--font-dancing-script);
+    --font-poppins: var(--font-poppins);
+
+}
+
+body {
+    font-family: var(--font-raleway), sans-serif;
+}
+
+.rooms {
+    width: 100%;
+    background-size: cover;
+    background: linear-gradient(rgba(1, 5, 61, 0.589), rgba(1, 5, 61, 0.589)) url("../public/main1.jpg") no-repeat fixed center;
+}
+
+.hero3 {
+    width: 100%;
+    /* background-attachment: fixed; */
+    background: linear-gradient(rgba(1, 5, 61, 0.589), rgba(1, 5, 61, 0.589)),
+    url('../public/main1.jpg') center / cover no-repeat;
+}
+
+.signin {
+    background: linear-gradient(rgba(1, 5, 61, 0.589), rgba(1, 5, 61, 0.589)),
+    url('../public/main1.jpg') center / cover no-repeat;
+}
